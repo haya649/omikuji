@@ -7,7 +7,7 @@ export default function Home() {
 
   const drawFortune = () => {
     const fortunes = ["大大吉", "大吉", "中吉", "小吉", "凶", "大凶"];
-    const random = fortunes[Math.floor(Math.random() * fortunes.length)];
+    const random = fortunes[Math.floor(Math.random() * fortunes.length)]; //ここでおみくじをランダムで選ぶ
     setResult(random);
   };
 
